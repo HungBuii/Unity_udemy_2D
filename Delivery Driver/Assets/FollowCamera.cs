@@ -15,7 +15,7 @@ public class FollowCamera : MonoBehaviour
     //     transform.position = thingToFollow.transform.position + new Vector3(0,0,-10);        
     // }
 
-    void LateUpdate()
+    void LateUpdate() // https://docs.unity3d.com/Manual/ExecutionOrder.html
     {
         transform.position = thingToFollow.transform.position + new Vector3(0,0,-10);        
     }

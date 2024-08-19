@@ -7,18 +7,16 @@ public class Driver : MonoBehaviour
     // SerializeField: Display member variable information to editable unity tool.
     [SerializeField] float steerSpeed = 100f;
     [SerializeField] float moveSpeed = 20f;
+    [SerializeField] float slowSpeed = 15f;
+    [SerializeField] float boostSpeed = 30f;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
     // Update is called once per frame
     void Update()
     {
-        float steerAmount = Input.GetAxis("Horizontal") * steerSpeed * Time.deltaTime; // Input.GetAxis("axisName"): control the rotation or position object with A, D or left, right buttons on the horizontal axis.
+        float steerAmount = Input.GetAxis("Horizontal") * steerSpeed * Time.deltaTime; // Input.GetAxis("axisName"): control the rotation or 
+                                                                                       // position object with A, D or left, right buttons on the horizontal axis.
 
                                                                       // mutiply "steerSpeed" to control the rotation speed.
                                                                       
@@ -32,8 +30,21 @@ public class Driver : MonoBehaviour
                                              // but if "steerAmount" is a positive value, it will move to the right but should be on the left. 
                                              // Therefore, "-steerAmount" will be used to change the correct direction of the car's rotation.
 
-
+            
         float moveAmount = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime; // Same "steerAmount"
         transform.Translate(0, moveAmount, 0); // Position(x, y, z)
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        moveSpeed = slowSpeed;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Boost")
+        {
+            moveSpeed = boostSpeed;
+        }
     }
 }
