@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d7b6324802a12e488984b50aede65de, type: 3}
+  m_Name: New Question
+  m_EditorClassIdentifier: 
+  question: What is a variable?
+  answers:
+  - A variable is a storage location that can hold only one value at a time.
+  - A variable is a keyword used to declare a function.
+  - A variable is a container that can hold data of different types.
+  - A variable is a sequence of characters.
+  correctAnswerIndex: 0
