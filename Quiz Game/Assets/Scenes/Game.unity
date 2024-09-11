@@ -214,6 +214,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnswerButton (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3200327080687577308, guid: 2158ac841ebbc5c4988b7853eeaddfff, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7e4714b1ccec06e489be7e88dc6b091a, type: 3}
+    - target: {fileID: 9201828751178694293, guid: 2158ac841ebbc5c4988b7853eeaddfff, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9201828751178694293, guid: 2158ac841ebbc5c4988b7853eeaddfff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -352,6 +360,14 @@ PrefabInstance:
     - target: {fileID: 2925404495264089879, guid: 2158ac841ebbc5c4988b7853eeaddfff, type: 3}
       propertyPath: m_Name
       value: AnswerButton (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200327080687577308, guid: 2158ac841ebbc5c4988b7853eeaddfff, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7e4714b1ccec06e489be7e88dc6b091a, type: 3}
+    - target: {fileID: 9201828751178694293, guid: 2158ac841ebbc5c4988b7853eeaddfff, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9201828751178694293, guid: 2158ac841ebbc5c4988b7853eeaddfff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -588,6 +604,14 @@ PrefabInstance:
     - target: {fileID: 2925404495264089879, guid: 2158ac841ebbc5c4988b7853eeaddfff, type: 3}
       propertyPath: m_Name
       value: AnswerButton (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200327080687577308, guid: 2158ac841ebbc5c4988b7853eeaddfff, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7e4714b1ccec06e489be7e88dc6b091a, type: 3}
+    - target: {fileID: 9201828751178694293, guid: 2158ac841ebbc5c4988b7853eeaddfff, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9201828751178694293, guid: 2158ac841ebbc5c4988b7853eeaddfff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1616,9 +1640,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnswerButton (0)
       objectReference: {fileID: 0}
+    - target: {fileID: 3200327080687577308, guid: 2158ac841ebbc5c4988b7853eeaddfff, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7e4714b1ccec06e489be7e88dc6b091a, type: 3}
     - target: {fileID: 4316982322361632480, guid: 2158ac841ebbc5c4988b7853eeaddfff, type: 3}
       propertyPath: m_text
       value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201828751178694293, guid: 2158ac841ebbc5c4988b7853eeaddfff, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9201828751178694293, guid: 2158ac841ebbc5c4988b7853eeaddfff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
